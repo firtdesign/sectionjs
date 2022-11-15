@@ -1,0 +1,58 @@
+nav img{
+    width: 100px;
+}
+.navbar navbar-expand-lg navbar-dark bg-dark{ 
+    background: #333a40; }
+
+
+ #conf{
+        border-radius: 0%;
+ }
+#baires1 {
+        background: rgba(0, 0, 0, 0.7);
+        filter: brightness(40%);
+        
+        background-blend-mode: darken;
+        object-fit: cover;
+        height: 50vw;
+}
+#confer{
+        text-align: justify;
+        margin-top: 16rem;
+        margin-right: 4rem;
+        margin-bottom: 2rem;
+        overflow: auto; 
+}
+#text-bsas{
+        text-align: justify;
+        text-align: right;
+        font-size: medium;
+        padding-left: 68%;
+}
+
+
+#boton-conocemas{
+    margin-left:5%;
+}
+
+.ticketOutput.ticketValue {
+    float: left;
+
+}
+.ticketsOutput .ticketsBuy {
+ float: right;
+ cursor:pointer;
+
+}
+tickets-form .ticketsBuy::after{
+font: var(--fa-font-solid);
+content: "/f07a";
+}
+.btn-primary{
+    background-color: rgb(148, 219, 41);
+    border-color: rgb(148, 219, 41);
+}
+
+
+
+/*hay scroll de pantalla para que el texto no desborde*/
